@@ -1,0 +1,1 @@
+Contrastive self-supervised learning on MNIST (CNN encoder, NT‑Xent loss).
