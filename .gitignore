@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual envs
+env/
+venv/
+.venv/
+ENV/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Data and outputs (ignore large datasets and generated outputs)
+data/
+datasets/
+raw_data/
+processed_data/
+outputs/
+checkpoints/
+models/
+*.pt
+*.ckpt
+*.pth
+*.h5
+
+# Optional: ignore generated images/plots
+figures/
+visualizations/
+# Globaal png/jpg negeren:
+*.png
+*.jpg
+*.jpeg
+
+# Uitzondering: bewaar specifiek de README/README-visuals
+!docs/assets/
+!docs/assets/*.png
